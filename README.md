@@ -2,6 +2,8 @@
 
 **Calz** is an Android mobile application developed as part of the final-year module for the BSc (Hons) Computer Science degree at London Metropolitan University. Built using **Kotlin** with **Jetpack Compose**, Calz offers a streamlined experience for users to track their nutrition, monitor weight, and reflect on personal health progress.
 
+[![Watch the demo](https://img.youtube.com/vi/RamcF7L_bzg/0.jpg)](https://www.youtube.com/watch?v=RamcF7L_bzg)
+
 ## 📱 Features
 
 - 🔐 **Firebase Authentication** (Email/Password + Google Sign-In)
