@@ -1,0 +1,10 @@
+<resources>
+    <!-- App name displayed on the home screen and title bar -->
+    <string name="app_name">Calz</string>
+
+    <!--  Google Sign-In Web Client ID -->
+    <!-- This is required for Firebase Authentication with Google using Credential Manager -->
+    <!-- this matches the "Web client" ID from Firebase project's OAuth 2.0 settings
+    <!- Add your actual Web Client ID from Firebase here -->
+    <string name="default_web_client_id">909846140770-tpdrtgn8t756hfhhma1nrgqqlmvdejsg.apps.googleusercontent.com</string>
+</resources>

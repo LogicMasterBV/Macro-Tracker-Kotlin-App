@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App-wide theme for pre-Compose window styling -->
+    <!-- Uses a classic Material Light theme without an ActionBar -->
+    <!-- This applies mostly to system UI chrome (status bar, nav bar) unless overridden in Compose -->
+    <style name="Theme.Fitness" parent="android:Theme.Material.Light.NoActionBar" />
+
+</resources>
