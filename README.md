@@ -27,11 +27,6 @@ While apps like CalAi and Cronometer offer advanced features, they can be clutte
   - Google Vision API (image-based food recognition)
   - USDA FoodData Central API (nutrition database)
 
-## 📊 App Screens
-
-| Home | Log Meals | Progress |
-|------|-----------|----------|
-| ![home](screenshots/home.png) | ![log](screenshots/log.png) | ![progress](screenshots/progress.png) |
 
 ## 🧪 Testing & Deployment
 
