@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MacroTracker Fitness — Informativa sulla Privacy</title>
+  <meta name="description" content="Informativa sulla Privacy dell'app MacroTracker Fitness." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#ffffff;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --primary:#0ea5e9;
+      --ring:rgba(14,165,233,.25);
+      --border:#e5e7eb;
+      --code:#111827;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0b0f15;
+        --card:#0f141b;
+        --text:#e5e7eb;
+        --muted:#a1a1aa;
+        --primary:#38bdf8;
+        --ring:rgba(56,189,248,.25);
+        --border:#1f2937;
+        --code:#e5e7eb;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:var(--primary);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:940px;margin:0 auto;padding:28px 20px 64px}
+    header{
+      position:sticky;top:0;z-index:10;
+      backdrop-filter: blur(6px);
+      background: color-mix(in oklab, var(--bg) 75%, transparent);
+      border-bottom:1px solid var(--border);
+    }
+    .nav{max-width:940px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      inline-size:36px; block-size:36px; border-radius:10px;
+      background: linear-gradient(135deg, var(--primary), #7dd3fc);
+      display:grid; place-items:center; color:white; font-weight:700;
+      box-shadow:0 8px 24px var(--ring);
+    }
+    .title{font-weight:700;letter-spacing:.2px}
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:28px;
+      box-shadow:0 10px 30px var(--ring);
+    }
+    h1{font-size:clamp(28px,3vw,36px);margin:14px 0 6px}
+    h2{font-size:clamp(20px,2.2vw,24px);margin:28px 0 12px}
+    h3{font-size:18px;margin:18px 0 8px}
+    p{line-height:1.7;margin:10px 0}
+    ul{margin:10px 0 6px 20px}
+    li{margin:6px 0}
+    .muted{color:var(--muted)}
+    .grid{display:grid;gap:18px}
+    @media(min-width:860px){ .grid{grid-template-columns:260px 1fr} }
+    .toc{
+      position:sticky; top:86px;
+      background:var(--card); border:1px solid var(--border);
+      border-radius:14px; padding:16px;
+    }
+    .toc h3{margin-top:0}
+    .toc a{display:block;padding:6px 0;color:var(--muted)}
+    .badge{
+      display:inline-block; padding:6px 10px; border-radius:999px;
+      background: color-mix(in oklab, var(--primary) 14%, transparent);
+      color: var(--primary); font-size:12px; font-weight:600; letter-spacing:.25px
+    }
+    code{background:color-mix(in oklab, var(--primary) 12%, transparent); color:var(--code); padding:2px 6px; border-radius:6px}
+    footer{margin-top:32px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo">CZ</div>
+        <div>
+          <div class="title">MacroTracker Fitness</div>
+          <div class="muted" style="font-size:12px">Informativa sulla Privacy</div>
+        </div>
+      </div>
+      <span class="badge">Ultimo aggiornamento: 22/09/2025</span>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <!-- TOC -->
+      <aside class="toc">
+        <h3>Indice</h3>
+        <a href="#titolare">Titolare del trattamento</a>
+        <a href="#dati">Dati trattati</a>
+        <a href="#finalita">Finalità e basi giuridiche</a>
+        <a href="#conservazione">Conservazione</a>
+        <a href="#terze-parti">Fornitori/terze parti</a>
+        <a href="#trasferimenti">Trasferimenti extra-UE</a>
+        <a href="#sicurezza">Sicurezza</a>
+        <a href="#diritti">Diritti dell’utente</a>
+        <a href="#contatti">Contatti</a>
+      </aside>
+
+      <!-- Content -->
+      <section class="card">
+        <h1>Informativa sulla Privacy</h1>
+        <p>
+          Questa informativa descrive come <strong>MacroTracker Fitness</strong> (“App”) tratta i dati personali
+          in conformità alla normativa applicabile, incluso il Regolamento (UE) 2016/679 (“GDPR”).
+        </p>
+
+        <h2 id="titolare">Titolare del trattamento</h2>
+        <p>
+          MacroTracker Fitness — Email: <a href="mailto:support@calz.app">support@calz.app</a>
+        </p>
+
+        <h2 id="dati">Dati trattati</h2>
+        <ul>
+          <li><strong>Identificativi</strong> (ad es. email) per l’autenticazione e la creazione del profilo.</li>
+          <li><strong>Immagini</strong> caricate/scattate per funzioni come il riconoscimento alimenti.</li>
+          <li><strong>Dati di utilizzo</strong> tecnici non identificativi (log anonimi, crash). </li>
+        </ul>
+        <p class="muted">Nota: l’App può richiedere l’autorizzazione <code>android.permission.CAMERA</code> per scattare foto. L’accesso è
+          limitato alla fornitura delle funzionalità richieste dall’utente.</p>
+
+        <h2 id="finalita">Finalità e basi giuridiche</h2>
+        <ul>
+          <li><strong>Autenticazione e gestione account</strong> — esecuzione del contratto/servizio richiesto.</li>
+          <li><strong>Riconoscimento alimenti</strong> — esecuzione del contratto; legittimo interesse a migliorare l’esperienza.</li>
+          <li><strong>Analytics tecnici</strong> (crash/log) — legittimo interesse a mantenere sicurezza e qualità.</li>
+        </ul>
+
+        <h2 id="conservazione">Conservazione</h2>
+        <p>I dati sono conservati per il tempo necessario all’erogazione del servizio e/o fino a richiesta di cancellazione.
+           I contenuti caricati dall’utente possono essere eliminati all’interno dell’App o su richiesta via email.</p>
+
+        <h2 id="terze-parti">Fornitori/terze parti</h2>
+        <p>L’App può utilizzare servizi di Google, inclusi <strong>Firebase Authentication</strong>, <strong>Cloud Firestore</strong>,
+           <strong>Firebase Storage</strong> e <strong>Google Vision API</strong>, esclusivamente per fornire le funzionalità dell’App.
+           Tali fornitori trattano i dati in qualità di responsabili del trattamento, secondo i rispettivi termini e privacy policy.</p>
+
+        <h2 id="trasferimenti">Trasferimenti extra-UE</h2>
+        <p>I fornitori sopra indicati possono trattare dati al di fuori dello SEE. Il trasferimento avviene nel rispetto
+           delle Clausole Contrattuali Standard o di altri meccanismi idonei previsti dalla normativa.</p>
+
+        <h2 id="sicurezza">Sicurezza</h2>
+        <p>Adottiamo misure tecniche e organizzative adeguate (inclusa la cifratura in transito tramite HTTPS)
+           per proteggere i dati da accessi, divulgazioni o modifiche non autorizzate.</p>
+
+        <h2 id="diritti">Diritti dell’utente</h2>
+        <p>L’utente può esercitare i diritti previsti dal GDPR (accesso, rettifica, cancellazione, limitazione, opposizione,
+           portabilità) scrivendo a <a href="mailto:support@calz.app">support@calz.app</a>. Risponderemo entro i termini di legge.</p>
+
+        <h2 id="contatti">Contatti</h2>
+        <p>Per domande o richieste sulla privacy: <a href="mailto:support@calz.app">support@calz.app</a></p>
+
+        <footer>
+          <p>© <span id="year"></span> MacroTracker Fitness — Tutti i diritti riservati.</p>
+          <p class="muted">Questa pagina potrà essere aggiornata. Controlla la data in alto.</p>
+        </footer>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    // Aggiorna automaticamente l'anno nel footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
